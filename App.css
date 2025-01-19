@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.form-container {
+  display: flex; /* Enables flexbox layout */
+  justify-content: space-around; /* Adds space between forms */
+  align-items: flex-start; /* Aligns forms at the top */
+  margin: 20px; /* Adds spacing around the container */
+}
+
+.form-container > * {
+  flex: 1; /* Ensures both forms take equal width */
+  margin: 10px; /* Adds spacing between forms */
+}
+
+h1 {
+  font-size: 2rem;
+}
